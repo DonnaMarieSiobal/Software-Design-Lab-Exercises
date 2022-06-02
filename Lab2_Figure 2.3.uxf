@@ -1,0 +1,21 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>240</x><y>80</y><w>240</w><h>120</h></coordinates><panel_attributes>Bank
+--
+Name: str
+Pin: int
+Balance: Double
+--
++getData():BankData
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>470</x><y>120</y><w>150</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;130;10;130;130</additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>250</y><w>260</w><h>110</h></coordinates><panel_attributes>Account
+--
+Name: str
+Pin: int
+--
+addAccount
+removeAccount</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>140</x><y>270</y><w>240</w><h>110</h></coordinates><panel_attributes>Customer
+--
+Name: str
+Pin: int
+--
+deposit()
+totalInterest()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>300</y><w>130</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>110;10;10;10</additional_attributes></element></diagram>

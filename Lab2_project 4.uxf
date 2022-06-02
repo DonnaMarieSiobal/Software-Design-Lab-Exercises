@@ -1,0 +1,25 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>150</x><y>90</y><w>240</w><h>90</h></coordinates><panel_attributes>Login
+--
+username: str
+pin: int 
+--
+validate_data(): bool
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>490</x><y>90</y><w>170</w><h>80</h></coordinates><panel_attributes>--
+match username
+match pin
+--
+Login Sucessfully
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>160</x><y>270</y><w>210</w><h>80</h></coordinates><panel_attributes>--
+incorrect username
+incorrect pin
+--
+first attempt: attempt left 2</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>430</x><y>270</y><w>210</w><h>80</h></coordinates><panel_attributes>--
+incorrect username
+incorrect pin
+--
+second attempt: attempt left 1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>690</x><y>260</y><w>210</w><h>90</h></coordinates><panel_attributes>--
+incorrect username
+incorrect pin
+--
+third attempt: attempt left 0
+Login Failed</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>120</y><w>130</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>110;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>300</y><w>90</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>70;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>300</y><w>80</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>60;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>250</x><y>170</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element></diagram>
